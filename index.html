@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Trabalho com Cores</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Trabalho Modulo 1</h2>
+      <div class="card">
+        <p class="head">
+          Seletor de Cores RGB
+        </p>
+        <div class="section">
+          <label> (R) Vermelho:</label>
+          <input
+            type="range"
+            name="red"
+            id="rangeRed"
+            min="0"
+            max="255"
+            value="0"
+            step="1"
+          />
+          <input type="text" disabled id="inputRed" />
+        </div>
+        <div class="section">
+          <label> (G) Verde:</label>
+          <input
+            type="range"
+            name="green"
+            id="rangeGreen"
+            min="0"
+            max="255"
+            value="0"
+          />
+          <input type="text" disabled id="inputGreen" />
+        </div>
+        <div class="section">
+          <label> (B) Azul:</label>
+          <input
+            type="range"
+            name="blue"
+            id="rangeBlue"
+            min="0"
+            max="255"
+            value="0"
+          />
+          <input type="text" disabled id="inputBlue" />
+        </div>
+
+        <div class="result"></div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
